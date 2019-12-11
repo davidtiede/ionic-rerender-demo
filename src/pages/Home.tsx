@@ -8,6 +8,7 @@ import {
 import React from 'react';
 
 const Home: React.FC = () => {
+  console.log('render home', Math.random());
   return (
     <IonPage>
       <IonHeader>
